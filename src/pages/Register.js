@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import intro_img from '../assets/images/intro_img.png'
 
 function Register(){
     return (
-        <div className="d-flex">
-            <div>
+        <div className="flex">
+            <div className='flex-2'>
+                <h2>Register</h2>
                 <form action="">
                     <div className="mb-3">
                         <label htmlFor="username">Username</label>
@@ -25,6 +27,9 @@ function Register(){
                     <button className='btn'>Register</button>
                     <p>Already a user? <Link to={'/login'}>Login</Link></p>
                 </form>
+            </div>
+            <div className='flex-1 max-h-full'>
+                <img className='' src={intro_img} alt="" />
             </div>
         </div>
     )
