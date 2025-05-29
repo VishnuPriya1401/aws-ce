@@ -27,7 +27,7 @@ function Login() {
             <div className="flex flex-col items-start">
                 <label htmlFor="email" className='text-[#30333C] font-semibold'>Email</label>
                 <div className='block rounded-[5px] bg-gradient-to-b from-[#76767600] via-[#76767620] to-[#767676] p-[1.5px]'>
-                    <div className='flex rounded-[5px] items-center justify-start bg-[#F3F9DE] p=[1px] pl-[5px] text-[#767676]'>
+                    <div className='flex rounded-[5px] items-center justify-start bg-[#F3F9DE] p-[1px] pl-[5px] text-[#767676]'>
                         <img src={images.mail_icon} alt="" className='size-5 mr-3 rounded-[5px]'/>
                         <input type="email" placeholder='Enter email' name='email'
                         className='focus:outline-none focus:ring-0 focus:border-transparent rounded-[5px] p-1 bg-[#F3F9DE] text-[#767676]' 
@@ -39,7 +39,7 @@ function Login() {
             <div className="flex flex-col items-start">
                 <label htmlFor="password" className='text-[#30333C] font-semibold'>Password</label>
                 <div className='block rounded-[5px] bg-gradient-to-b from-[#76767600] via-[#76767620] to-[#767676] p-[1.5px]'>
-                    <div className='flex rounded-[5px] items-center justify-start bg-[#F3F9DE] p=[1px] pl-[5px] text-[#767676]'>
+                    <div className='flex rounded-[5px] items-center justify-start bg-[#F3F9DE] p-[1px] pl-[5px] text-[#767676]'>
                         <img src={images.lock_icon} alt="" className='size-5 mr-3 rounded-[5px]'/>
                         <input type="password" placeholder='Enter password' name='password'
                         className='focus:outline-none focus:ring-0 focus:border-transparent rounded-[5px] p-1 bg-[#F3F9DE] text-[#767676]' 
